@@ -1,6 +1,6 @@
 {
   "name": "robber-language",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A JavaScript library for encoding and decoding Rövarspråket (The Robber Language).",
   "main": "dist/index.js",
   "scripts": {
