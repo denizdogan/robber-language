@@ -30,14 +30,14 @@ describe('robber-language', () => {
   });
 
   it('should return the input string after encoding then decoding', () => {
-    var exec = input => decode(encode(input));
+    let exec = input => decode(encode(input));
     ENTRIES.forEach(([input, _output]) => {
       assert.equal(exec(input), input);
     })
   });
 
   it('should return the input string after decoding then encoding', () => {
-    var exec = input => encode(decode(input));
+    let exec = input => encode(decode(input));
     ENTRIES.forEach(([_input, output]) => {
       assert.equal(exec(output), output);
     });
