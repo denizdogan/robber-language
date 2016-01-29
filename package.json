@@ -1,7 +1,7 @@
 {
   "name": "robber-language",
   "version": "0.0.2",
-  "description": "",
+  "description": "A JavaScript library for encoding and decoding Rövarspråket (The Robber Language).",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-register",
