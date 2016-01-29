@@ -8,7 +8,7 @@ var ENTRIES = Object.entries({
   'dolor sit amet': 'dodololoror sositot amometot'
 });
 
-describe('rovarspraket', function() {
+describe('robber-language', function() {
   it('should encode correctly', function() {
     ENTRIES.forEach(function([input, output]) {
       assert.equal(encode(input), output);
