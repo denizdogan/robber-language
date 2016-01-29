@@ -1,0 +1,22 @@
+{
+  "name": "robber-language",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register",
+    "compile": "babel -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "author": "Deniz Dogan <deniz@dogan.se>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "core-js": "^2.0.3",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {},
+  "bugs": "https://github.com/denizdogan/robber-language/issues"
+}
